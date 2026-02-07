@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff6e5;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffb347;
+}
+
+.logo {
+  height: 70px;
+}
+
+.header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5a2d0c;
+  font-weight: bold;
+}
+
+/* HERO */
+.imagen05 {
+  text-align: center;
+  padding: 60px 20px;
+  min-height: 400px;
+  background-image: url(imagen/imagen05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen05 h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.imagen05 button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #ff7a00;
+  border: none;
+  color: white;
+  font-size: 1em;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.imagen02{
+    background-image: url(imagen/imagen02.jpeg);
+    background-size: 100% 100% ;
+}
+
+.cardapio {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-image: url(imagen/imagen03.jpeg);
+  background-size: 100% 177%;
+  background-attachment: fixed;
+}
+.card {
+  background: rgb(254, 254, 254);
+  padding: 20px;
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.card:hover{
+    background-color: #ff7a00;
+}
+a:hover{
+     color: white;
+}
+
+/* CONTATO */
+.contato button {
+  padding: 15px 30px;
+  background: #25d366;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #ffb347;
+  text-align: center;
+  padding: 15px;
+}

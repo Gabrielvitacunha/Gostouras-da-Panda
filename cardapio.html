@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Bolos</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #fff7f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #d14b7a;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            color: #d14b7a;
+            border-bottom: 2px solid #f3c2d3;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        .info {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .extra {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #a94464;
+            background: #fff0f5;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            ul li {
+                flex-direction: column;
+                gap: 4px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🍰 Cardápio de Bolos</h1>
+        <div class="subtitle">*Topo do bolo é cobrado à parte*</div>
+
+        <div class="card">
+            <h2>Tamanhos e Valores</h2>
+            <ul>
+                <li><span>15cm (15 fatias)</span><strong>R$ 150,00</strong></li>
+                <li><span>20cm (20 a 25 fatias)</span><strong>R$ 200,00</strong></li>
+                <li><span>25cm (35 a 40 fatias)</span><strong>R$ 280,00</strong></li>
+                <li><span>30cm (60 a 70 fatias)</span><strong>R$ 380,00</strong></li>
+                <li><span>40cm (80 a 100 fatias)</span><strong>R$ 480,00</strong></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Massa</h2>
+            <div class="info">
+                Branca • Mista • Chocolate
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Recheios</h2>
+            <div class="info">
+                Brigadeiro, brigadeiro de ninho, beijinho, paçoca, mousse de maracujá, sensação ou limão.
+            </div>
+
+            <div class="extra">
+                ⚠️ Recheios com acréscimo: <br>
+                Doce de leite, ninho com Oreo, abacaxi, ameixa e geleia de morango.
+            </div>
+        </div>
+
+        <footer>
+            © 2026 • Cardápio sujeito a alterações
+        </footer>
+
+    </div>
+
+</body>
+</html>
